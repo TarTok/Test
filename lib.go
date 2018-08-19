@@ -14,4 +14,5 @@ func Scan1() string {
 		fmt.Fprintln(os.Stderr, "Ошибка ввода:", err)
 	}
 	return in.Text()
+
 }
